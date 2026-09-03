@@ -79,3 +79,9 @@ df = df.sort_values(by='City').reset_index(drop=True)
 print("\nCleaned Data Preview:")
 print(df.head())
 print(df.info())
+
+# Convert to csv and json
+
+df.to_csv('data/cleaned_weather.csv', index=False)
+df.to_json('data/cleaned_weather.json', orient='records', indent=4)
+
