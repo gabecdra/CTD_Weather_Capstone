@@ -1,6 +1,6 @@
 # Weather Scraper Capstone
 
-This project scrapes weather data from Weather Around The World, cleans it, and stores it as CSV. The Data will eventually be displayed on an interactive display
+This project scrapes weather data from Weather Around The World, cleans it, and stores it in CSV format. The Data will eventually be displayed on an interactive display
 
 ## Setup
 
