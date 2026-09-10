@@ -11,9 +11,4 @@ This project scrapes weather data from Weather Around The World, cleans it, and 
 ## Data
 
 - `data/raw_weather.csv` – Raw scraped data
-- `data/cleaned_weather.csv` – Cleaned and transformed data (will be added later)
-
-## Branch Workflow
-
-- `main` – stable version
-- `scraping` – web scraping branch
+- `data/cleaned_weather.csv` – Cleaned and transformed data 
