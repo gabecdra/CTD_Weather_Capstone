@@ -162,7 +162,7 @@ with col2:
 
 # CHART 3: Weather Type Distribution
 
-st.subheader("Weather Type Distribution")
+st.subheader("Weather and Temperature Type Distribution")
 
 col1, col2 = st.columns(2)
 
