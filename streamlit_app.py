@@ -122,7 +122,7 @@ else:
 
 # CHART 2: Temperature Distribution
 
-st.subheader("Temperature Distribution")
+st.subheader("Temperature Distribution Across Descriptors")
 
 col1, col2 = st.columns(2)
 
