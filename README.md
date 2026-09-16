@@ -15,7 +15,8 @@ stores it in SQLite, and displays it in a Streamlit dashboard.
 8. Run dashboard: `streamlit run streamlit_app.py`
 
 ## Screenshot
-![Dashboard Screenshot](screenshot.png)
+<img width="1510" height="891" alt="Screenshot 2026-09-15 at 10 26 40 PM" src="https://github.com/user-attachments/assets/2ab9984a-b3f4-4e20-9760-314990ceb042" />
+
 
 ## Files
 - `Scraper.py` - Web scraping
