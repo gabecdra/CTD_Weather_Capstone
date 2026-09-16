@@ -1,14 +1,24 @@
-# Weather Scraper Capstone
+# CTD Weather Capstone
 
-This project scrapes weather data from Weather Around The World, cleans it, and stores it in CSV format. The Data will eventually be displayed on an interactive display
+## Summary
+Scrapes weather data from timeanddate.com using Selenium, cleans it with Pandas, 
+stores it in SQLite, and displays it in a Streamlit dashboard.
 
 ## Setup
-
 1. Clone the repo
-2. Run scraper: `python src/scraper.py`
-3. Clean data: `python src/clean_data.py`
+2. Create virtual environment: `python3.11 -m venv venv`
+3. Activate: `source venv/bin/activate`
+4. Install: `pip install -r requirements.txt`
+5. Run scraper: `python Scraper.py`
+6. Run cleaner: `python Cleaner.py`
+7. Load to database: `python load_to_sqlite.py`
+8. Run dashboard: `streamlit run streamlit_app.py`
 
-## Data
+## Screenshot
+![Dashboard Screenshot](screenshot.png)
 
-- `data/raw_weather.csv` – Raw scraped data
-- `data/cleaned_weather.csv` – Cleaned and transformed data 
+## Files
+- `Scraper.py` - Web scraping
+- `Cleaner.py` - Data cleaning
+- `load_to_sqlite.py` - Database loading
+- `streamlit_app.py` - Dashboard
