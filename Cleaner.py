@@ -1,6 +1,5 @@
 import pandas as pd
 import re
-import os
 
 df = pd.read_csv('data/raw_weather.csv')
 

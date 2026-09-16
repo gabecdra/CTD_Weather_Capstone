@@ -1,6 +1,5 @@
 import pandas as pd
 import sqlite3
-import os
 
 df = pd.read_csv('data/cleaned_weather.csv')
 
